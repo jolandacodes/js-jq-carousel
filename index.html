@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/4f3b462773.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>JQuery Carousel</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="back">
+          <!-- div that contains the "back" arrow -->
+          <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </div>
+
+        <div class="images">
+          <!-- div that contains the imgs -->
+
+          <img
+            class="active first"
+            src="https://images.pexels.com/photos/371633/pexels-photo-371633.jpeg?cs=srgb&dl=clouds-country-daylight-371633.jpg&fm=jpg"
+            alt=""
+          />
+          <img
+            src="https://static.photocdn.pt/images/articles/2017/04/28/iStock-646511634.jpg"
+            alt=""
+          />
+          <img
+            src="https://cdn.mos.cms.futurecdn.net/FUE7XiFApEqWZQ85wYcAfM.jpg"
+            alt=""
+          />
+          <img
+            class="last"
+            src="https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg"
+            alt=""
+          />
+        </div>
+        <div class="forward">
+          <!-- div that contains the "forward" arrow -->
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+        <div class="navbar">
+          <!-- div that contains navbar -->
+          <i class="fa fa-circle active first" aria-hidden="true"></i>
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <i class="fa fa-circle last" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- end of content wrapper -->
+    </div>
+    <!-- end of full body container -->
+
+    <script src="master.js"></script>
+  </body>
+</html>
